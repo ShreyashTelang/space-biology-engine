@@ -1,0 +1,13 @@
+# Core Web & API Framework
+fastapi>=0.100.0
+uvicorn>=0.22.0
+pydantic>=2.0.0
+
+# Scientific & Data Analysis
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Interactive Visualization (Streamlit Workbench)
+streamlit>=1.25.0
+plotly>=5.15.0

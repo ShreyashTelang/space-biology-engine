@@ -1,0 +1,37 @@
+{
+  "total_publications": 607,
+  "domains": {
+    "General Space Biology & Life Support": 156,
+    "Plant Biology & Space Agriculture": 101,
+    "Musculoskeletal & Bone Loss": 85,
+    "Microbiology & Biofilms": 80,
+    "Radiation & Deep Space Hazards": 70,
+    "Omics, Mitochondria & Cellular Stress": 40,
+    "Neuroscience & Vision (SANS)": 24,
+    "Immunology & Infection": 19,
+    "Reproductive & Developmental Biology": 17,
+    "Cardiovascular & Fluid Shifts": 15
+  },
+  "organisms": {
+    "Cross-Species / General Model": 211,
+    "Mus musculus (Rodents)": 185,
+    "Arabidopsis thaliana (Plants)": 100,
+    "In Vitro / Cell Culture / Organoid": 32,
+    "Microbial / Microorganisms": 29,
+    "Homo sapiens (Humans)": 24,
+    "Caenorhabditis elegans (Worm)": 15,
+    "Drosophila melanogaster (Fruit Fly)": 11
+  },
+  "platforms": {
+    "Spaceflight / Space Environment": 463,
+    "ISS (International Space Station)": 98,
+    "Ground Analog (Clinostat / Hindlimb / Bedrest)": 43,
+    "Space Shuttle (STS)": 2,
+    "Bion-M / Biosatellite": 1
+  },
+  "consensus": {
+    "Emerging Evidence": 533,
+    "High Consensus": 52,
+    "Controversial / Active Debate": 22
+  }
+}

@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NASA Space Biology Knowledge Engine | Scientific Research Portal</title>
+  <meta name="description" content="Professional space biology intelligence platform analyzing 608 NASA bioscience publications and GeneLab transcriptomics data for Moon and Mars exploration missions." />
+  
+  <!-- Google Font: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Ambient Subtle Grid Background -->
+  <div class="ambient-bg"></div>
+
+  <!-- Top Navigation Bar -->
+  <header class="navbar">
+    <div class="nav-container">
+      <div class="nav-brand">
+        <div class="logo-badge">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="9" stroke="#0284c7"></circle>
+            <path d="M12 3a9 9 0 0 1 6.36 15.36M12 3a9 9 0 0 0-6.36 15.36" stroke="#0369a1"></path>
+            <circle cx="12" cy="12" r="3" fill="#0284c7"></circle>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">NASA Space Biology Engine</span>
+          <span class="brand-sub">Open Science Data Repository | GeneLab Platform</span>
+        </div>
+      </div>
+
+      <!-- Navigation Tabs -->
+      <nav class="nav-tabs" id="navTabs">
+        <button class="nav-tab active" data-tab="overview">
+          <svg class="tab-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+          Overview
+        </button>
+        <button class="nav-tab" data-tab="personas">
+          <svg class="tab-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+          Persona Workbenches
+        </button>
+        <button class="nav-tab" data-tab="knowledge-graph">
+          <svg class="tab-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>
+          Knowledge Graph
+        </button>
+        <button class="nav-tab" data-tab="genelab">
+          <svg class="tab-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 15c6.667-6 13.333 0 20-6"></path><path d="M9 22c1.798-1.998 2.518-3.995 2.807-5.993"></path><path d="M15 2c-1.798 1.998-2.518 3.995-2.807 5.993"></path><path d="M17 6l-2.5-2.5"></path><path d="M14 8l-1-1"></path><path d="M7 18l2.5 2.5"></path><path d="M3.5 14.5l5 5"></path><path d="M20.5 9.5l-5-5"></path></svg>
+          GeneLab Omics
+        </button>
+        <button class="nav-tab" data-tab="publications">
+          <svg class="tab-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+          608 Publications
+        </button>
+        <button class="nav-tab" data-tab="ai-assistant">
+          <svg class="tab-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          AI Synthesizer
+        </button>
+      </nav>
+
+      <!-- External Portals & Institutional Status -->
+      <div class="nav-actions">
+        <div class="resource-badge">
+          <span class="status-badge">CONNECTED</span> NASA OSDR
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Application Container -->
+  <main class="main-content">
+    
+    <!-- ======================================================== -->
+    <!-- TAB 1: OVERVIEW -->
+    <!-- ======================================================== -->
+    <section class="tab-pane active" id="pane-overview">
+      <!-- Hero Banner -->
+      <div class="hero-card">
+        <div class="hero-image-wrapper">
+          <img src="assets/hero.jpg" alt="NASA Space Biology Laboratory" class="hero-img" id="heroImg" />
+          <div class="hero-gradient-overlay"></div>
+        </div>
+        <div class="hero-content">
+          <div class="hero-badge">
+            NASA Biological and Physical Sciences Division
+          </div>
+          <h1 class="hero-title">Synthesizing Decades of Space Biology for Artemis &amp; Mars</h1>
+          <p class="hero-desc">
+            Explore <strong>608 peer-reviewed NASA space biology publications</strong> and <strong>22,810 GeneLab transcriptomic records</strong>. Leverage relational knowledge graphs and automated semantic retrieval to identify biological countermeasures, uncover research gaps, and protect astronauts on long-duration interplanetary missions.
+          </p>
+          <div class="hero-actions">
+            <button class="btn btn-primary" onclick="switchTab('knowledge-graph')">
+              Explore Knowledge Graph
+            </button>
+            <button class="btn btn-primary" onclick="switchTab('personas')">
+              Select Exploration Persona
+            </button>
+            <button class="btn btn-primary" onclick="switchTab('publications')">
+              Browse 608 Publications
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Metrics Grid Strip -->
+      <div class="metrics-grid">
+        <div class="metric-box">
+          <div class="metric-val" id="metricPubCount">607</div>
+          <div class="metric-label">NASA Publications</div>
+          <div class="metric-sub">Open-access PubMed Central studies</div>
+        </div>
+        <div class="metric-box">
+          <div class="metric-val" id="metricGeneCount">22,810</div>
+          <div class="metric-label">GeneLab Transcripts</div>
+          <div class="metric-sub">Col-0 vs act2-3 Flight replicates</div>
+        </div>
+        <div class="metric-box">
+          <div class="metric-val" id="metricSigGenes">4,984</div>
+          <div class="metric-label">Differential Genes</div>
+          <div class="metric-sub">Statistical significance p &lt; 0.05</div>
+        </div>
+        <div class="metric-box">
+          <div class="metric-val" id="metricConsensus">258</div>
+          <div class="metric-label">Consensus Findings</div>
+          <div class="metric-sub">Reproduced across flight missions</div>
+        </div>
+        <div class="metric-box">
+          <div class="metric-val">Moon &amp; Mars</div>
+          <div class="metric-label">Exploration Readiness</div>
+          <div class="metric-sub">Validated HRP risk countermeasures</div>
+        </div>
+      </div>
+
+      <!-- Core Research Disciplines Section -->
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">Core Space Bioscience Disciplines</h2>
+          <p class="section-desc">Key investigation areas funded by the NASA Biological and Physical Sciences (BPS) Division</p>
+        </div>
+      </div>
+      <div class="domains-grid" id="domainsOverviewGrid">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+    </section>
+
+    <!-- ======================================================== -->
+    <!-- TAB 2: PERSONA WORKBENCHES -->
+    <!-- ======================================================== -->
+    <section class="tab-pane" id="pane-personas">
+      <div class="persona-selector-bar">
+        <button class="persona-btn active" data-persona="scientist">
+          <div>
+            <div class="p-title">Scientist &amp; Principal Investigator</div>
+            <div class="p-sub">Hypothesis formulation, molecular pathways, and consensus analysis</div>
+          </div>
+        </button>
+        <button class="persona-btn" data-persona="manager">
+          <div>
+            <div class="p-title">Research Manager &amp; Science Investor</div>
+            <div class="p-sub">Portfolio gap identification, NASA Task Book grants, and maturity indexes</div>
+          </div>
+        </button>
+        <button class="persona-btn" data-persona="architect">
+          <div>
+            <div class="p-title">Mission Architect</div>
+            <div class="p-sub">Moon-to-Mars hazards, transit vs. surface operational protocols</div>
+          </div>
+        </button>
+      </div>
+
+      <!-- PERSONA CONTENT: SCIENTIST -->
+      <div class="persona-content-pane active" id="persona-scientist">
+        <div class="card-panel">
+          <div class="panel-header">
+            <div>
+              <h3>Hypothesis Formulation &amp; Experimental Design Protocol</h3>
+              <p class="panel-desc">Generate structured, testable flight hypotheses by synthesizing evidence across 608 space biology investigations.</p>
+            </div>
+            <span class="badge badge-sky">Protocol Generator</span>
+          </div>
+
+          <div class="workbench-form">
+            <div class="form-group">
+              <label for="hypoStressor">Spaceflight Environmental Stressor</label>
+              <select id="hypoStressor" class="form-select">
+                <option value="Microgravity (0g)">Microgravity (0g Continuous)</option>
+                <option value="Galactic Cosmic Radiation (GCR)">Galactic Cosmic Radiation (GCR HZE Ions)</option>
+                <option value="Lunar Partial Gravity (0.16g)">Lunar Partial Gravity (0.16g)</option>
+                <option value="Martian Partial Gravity (0.38g)">Martian Partial Gravity (0.38g)</option>
+                <option value="Elevated Ambient Spacecraft CO2">Elevated Ambient Spacecraft CO2 (3000-5000 ppm)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="hypoOrganism">Model System / Target Tissue</label>
+              <select id="hypoOrganism" class="form-select">
+                <option value="Arabidopsis thaliana Roots & Amyloplasts">Arabidopsis thaliana (Roots & Amyloplasts)</option>
+                <option value="Rodent Trabecular Bone (Femur/Vertebrae)">Rodent Trabecular Bone (Femur / Vertebrae)</option>
+                <option value="Cardiovascular Endothelial Cells">Cardiovascular Endothelial Cells (Human In Vitro)</option>
+                <option value="Retinal Optic Nerve & ICP (SANS)">Retinal Optic Nerve & ICP (SANS Syndrome)</option>
+                <option value="Immune T-Cell Receptor & Cytokines">Immune T-Cell Receptor & Cytokines</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="hypoPathway">Target Signaling Pathway</label>
+              <select id="hypoPathway" class="form-select">
+                <option value="Actin Cytoskeleton & Mechanosensitive Channels">Actin Cytoskeleton & Mechanosensitive Channels</option>
+                <option value="Mitochondrial ROS & Nrf2 Antioxidant Cascade">Mitochondrial ROS & Nrf2 Antioxidant Cascade</option>
+                <option value="Osteoclast RANKL / Sclerostin Resorption">Osteoclast RANKL / Sclerostin Resorption</option>
+                <option value="Blood-Brain Barrier Endothelial Junctions">Blood-Brain Barrier Endothelial Junctions</option>
+                <option value="Cell Wall Remodeling & Expansin Enzymes">Cell Wall Remodeling & Expansin Enzymes</option>
+              </select>
+            </div>
+            <div class="form-group form-action">
+              <button class="btn btn-primary" id="btnGenerateHypothesis">
+                Generate Testable Hypothesis
+              </button>
+            </div>
+          </div>
+
+          <div class="hypothesis-result" id="hypothesisResultBox">
+            <!-- Rendered by JS -->
+          </div>
+        </div>
+
+        <!-- Consensus vs Contradictions Matrix -->
+        <div class="card-panel mt-4">
+          <div class="panel-header">
+            <div>
+              <h3>Scientific Consensus vs. Active Research Gaps in Space Biology</h3>
+              <p class="panel-desc">Summary of established mechanisms versus unresolved contradictions across flight and ground-analog studies.</p>
+            </div>
+            <span class="badge badge-navy">Cross-Study Synthesis</span>
+          </div>
+          <div class="table-responsive">
+            <table class="data-table" id="consensusTable">
+              <thead>
+                <tr>
+                  <th>Biological System</th>
+                  <th>Established Scientific Consensus</th>
+                  <th>Active Research Gap / Contradiction</th>
+                  <th>Flight Verification Protocol</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Musculoskeletal System</strong></td>
+                  <td>1.0–1.5% trabecular bone mineral density loss per month in microgravity via accelerated osteoclast resorption.</td>
+                  <td>Rate of microstructural bone restoration upon return to 1g; reversibility of marrow adiposity under chronic GCR.</td>
+                  <td><span class="tag tag-sky">ISS Rodent Research (RR)</span></td>
+                </tr>
+                <tr>
+                  <td><strong>Plant Gravitropism</strong></td>
+                  <td>Statolith starch sedimentation is lost in zero-g; phototropism (blue light) and hydrotropism provide compensatory orientation.</td>
+                  <td>Gravitational threshold acceleration required for normal root anchorage in Lunar (0.16g) vs. Martian (0.38g) gravity.</td>
+                  <td><span class="tag tag-navy">Artemis Lunar Base</span></td>
+                </tr>
+                <tr>
+                  <td><strong>Neuro-Ocular (SANS)</strong></td>
+                  <td>Cephalad venous fluid shift leads to chronic optic disc edema, globe flattening, and choroidal folds.</td>
+                  <td>Genetic polymorphisms and 1-carbon metabolic variants explaining why only ~30% of long-duration crew develop severe SANS.</td>
+                  <td><span class="tag tag-sky">Choline &amp; B-Vitamin Cohorts</span></td>
+                </tr>
+                <tr>
+                  <td><strong>Immunology</strong></td>
+                  <td>Suppression of cytotoxic T-cell activation and subclinical reactivation of latent herpesviruses (EBV, VZV).</td>
+                  <td>Distinguishing psychological confinement and sleep disruption from direct microgravity and cosmic ray effects.</td>
+                  <td><span class="tag tag-slate">Isolation Analogs (CHAPEA)</span></td>
+                </tr>
+                <tr>
+                  <td><strong>Mitochondria &amp; Omics</strong></td>
+                  <td>Elevated mitochondrial reactive oxygen species (ROS) and systemic markers of premature cellular senescence.</td>
+                  <td>Bioavailability and blood-brain barrier permeability of oral mitochondrial antioxidants under intracranial hypertension.</td>
+                  <td><span class="tag tag-navy">MitoQ Flight Trials</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- PERSONA CONTENT: MANAGER -->
+      <div class="persona-content-pane" id="persona-manager">
+        <div class="card-panel">
+          <div class="panel-header">
+            <div>
+              <h3>Bioscience Portfolio Analytics &amp; Strategic Opportunity Matrix</h3>
+              <p class="panel-desc">Assess research portfolio allocations, identify under-researched hazards, and optimize NASA Task Book solicitations.</p>
+            </div>
+            <span class="badge badge-sky">NASA Task Book Alignment</span>
+          </div>
+
+          <div class="grid-2col">
+            <div class="chart-card">
+              <h4>Research Volume by Discipline (608 Studies)</h4>
+              <div id="managerDisciplineChart" class="css-chart-container"></div>
+            </div>
+            <div class="chart-card">
+              <h4>Flight vs. Ground Analog Distribution</h4>
+              <div id="managerPlatformChart" class="css-chart-container"></div>
+            </div>
+          </div>
+
+          <h4 class="mt-4">Strategic Grant Solicitations &amp; Critical Knowledge Gaps</h4>
+          <div class="table-responsive">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Priority Level</th>
+                  <th>Critical Research Gap</th>
+                  <th>Mission Impact</th>
+                  <th>Recommended Task Book Action</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><span class="tag tag-critical">CRITICAL</span></td>
+                  <td><strong>Deep Space GCR + Microgravity Synergy</strong></td>
+                  <td>High uncertainty regarding dual chronic radiation and microgravity on vascular calcification &amp; neurocognition.</td>
+                  <td>Solicit combined NSRL accelerator and clinostat multi-factor payloads.</td>
+                </tr>
+                <tr>
+                  <td><span class="tag tag-critical">CRITICAL</span></td>
+                  <td><strong>Multi-Generational Seed-to-Seed Stability</strong></td>
+                  <td>Current crop data is limited to 1-2 generations. Epigenetic drift in space-grown crops may jeopardize food sustainability.</td>
+                  <td>Fund 5-generation automated growth chamber experiments on commercial LEO stations.</td>
+                </tr>
+                <tr>
+                  <td><span class="tag tag-high">HIGH</span></td>
+                  <td><strong>Microbiome Virulence &amp; Biofilm Thickening</strong></td>
+                  <td>Water loop contamination on ISS reveals bacterial biofilm resilience and accelerated horizontal gene transfer.</td>
+                  <td>Fund phage-based disinfectants and antimicrobial nano-coatings for ECLSS.</td>
+                </tr>
+                <tr>
+                  <td><span class="tag tag-managed">MANAGED</span></td>
+                  <td><strong>Musculoskeletal Resistive Exercise</strong></td>
+                  <td>ARED exercise protocol is validated for 6-month ISS stays, but bulky machinery cannot fit in compact Mars vehicles.</td>
+                  <td>Technology transition grants for compact motorized flywheel &amp; electrical muscle stimulators.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- PERSONA CONTENT: MISSION ARCHITECT -->
+      <div class="persona-content-pane" id="persona-architect">
+        <div class="card-panel">
+          <div class="panel-header">
+            <div>
+              <h3>Moon-to-Mars Exploration Biological Risk &amp; Countermeasure Matrix</h3>
+              <p class="panel-desc">Operational countermeasure protocols aligned with NASA Artemis Lunar Base and Mars 1,000-Day Class Exploration architectures.</p>
+            </div>
+            <span class="badge badge-sky">NASA Human Research Program</span>
+          </div>
+
+          <div class="mission-timeline">
+            <div class="timeline-step">
+              <div class="t-badge">PHASE 1</div>
+              <h4>Pre-Flight Baseline (T - 180 Days)</h4>
+              <ul>
+                <li>High-resolution bone microarchitecture (HR-pQCT &amp; DEXA scan)</li>
+                <li>Optical Coherence Tomography (OCT) retinal nerve fiber layer mapping</li>
+                <li>Individual aerobic VO2 max &amp; musculoskeletal torque baseline</li>
+                <li>Microbiome &amp; immune biomarker genomic profiling</li>
+              </ul>
+            </div>
+            <div class="timeline-step active">
+              <div class="t-badge">PHASE 2</div>
+              <h4>Mars In-Transit (180 Days Zero-G)</h4>
+              <ul>
+                <li><strong>Daily 2.0 hrs:</strong> High-intensity interval &amp; resistive exercise (flywheel)</li>
+                <li><strong>Nocturnal 8.0 hrs:</strong> Lower Body Negative Pressure (LBNP) suit sleep chamber</li>
+                <li><strong>Radiation Storm Shelter:</strong> Polyethylene water jacket retreat during Solar Particle Events</li>
+                <li><strong>Nutritional:</strong> MitoQ, Omega-3, Potassium Citrate (kidney stone prevention)</li>
+              </ul>
+            </div>
+            <div class="timeline-step">
+              <div class="t-badge">PHASE 3</div>
+              <h4>Mars Surface Operations (500 Days at 0.38g)</h4>
+              <ul>
+                <li>Regolith-shielded subterranean habitat module (>65% GCR attenuation)</li>
+                <li>Fresh salad crop supplementation from automated aeroponic chambers</li>
+                <li>Partial gravity locomotion &amp; axial loading compression garment</li>
+                <li>Active airborne dust filtration &amp; toxic perchlorate monitoring</li>
+              </ul>
+            </div>
+            <div class="timeline-step">
+              <div class="t-badge">PHASE 4</div>
+              <h4>Post-Landing Re-adaptation (Earth Return)</h4>
+              <ul>
+                <li>Neurovestibular balance recovery &amp; orthostatic intolerance rehab</li>
+                <li>Targeted antiresorptive therapy (bisphosphonates / sclerostin Ab)</li>
+                <li>Longitudinal immune reconstitution monitoring</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================== -->
+    <!-- TAB 3: KNOWLEDGE GRAPH & PATHWAY FLOW -->
+    <!-- ======================================================== -->
+    <section class="tab-pane" id="pane-knowledge-graph">
+      <div class="graph-layout">
+        <div class="graph-viewport-container">
+          <div class="graph-toolbar">
+            <!-- View Mode Switcher -->
+            <div class="view-mode-toggle">
+              <button class="mode-btn active" id="btnModePathway">Pathway Cascade View</button>
+              <button class="mode-btn" id="btnModeNetwork">Network Topology View</button>
+            </div>
+
+            <!-- Pathway Cascade Quick Actions -->
+            <div class="pathway-controls" id="pathwayControls">
+              <button class="btn-icon" id="btnResetPathway" title="Reset Cascade Selection" style="padding: 0.3rem 0.75rem; font-size: 0.78rem;">Reset Highlight</button>
+            </div>
+
+            <!-- Filter Pills for Network Topology -->
+            <div class="graph-filter-pills" id="graphFilterPills" style="display:none;">
+              <button class="pill active" data-filter="all">All Entities</button>
+              <button class="pill" data-filter="domain">Disciplines</button>
+              <button class="pill" data-filter="stressor">Stressors</button>
+              <button class="pill" data-filter="organism">Organisms</button>
+              <button class="pill" data-filter="countermeasure">Countermeasures</button>
+            </div>
+
+            <div class="graph-controls" id="graphControls" style="display:none;">
+              <button class="btn-icon" id="btnGraphZoomIn" title="Zoom In">+</button>
+              <button class="btn-icon" id="btnGraphZoomOut" title="Zoom Out">&minus;</button>
+              <button class="btn-icon" id="btnGraphReset" title="Reset Camera">Reset</button>
+            </div>
+          </div>
+
+          <!-- VIEW 1: Interactive Pathway Cascade Flow -->
+          <div class="pathway-flow-container" id="pathwayFlowContainer">
+            <div class="pathway-columns-grid">
+              
+              <!-- Col 1: Space Stressors -->
+              <div class="pathway-col">
+                <div class="pathway-col-header">
+                  <h4>Space Stressors</h4>
+                  <span class="col-count">4</span>
+                </div>
+                <div class="pathway-cards-list" id="stressorsCardList">
+                  <!-- Populated dynamically -->
+                </div>
+              </div>
+
+              <!-- Col 2: Biological Disciplines -->
+              <div class="pathway-col">
+                <div class="pathway-col-header">
+                  <h4>Biological Disciplines</h4>
+                  <span class="col-count">9</span>
+                </div>
+                <div class="pathway-cards-list" id="disciplinesCardList">
+                  <!-- Populated dynamically -->
+                </div>
+              </div>
+
+              <!-- Col 3: Target Organisms -->
+              <div class="pathway-col">
+                <div class="pathway-col-header">
+                  <h4>Model Organisms</h4>
+                  <span class="col-count">7</span>
+                </div>
+                <div class="pathway-cards-list" id="organismsCardList">
+                  <!-- Populated dynamically -->
+                </div>
+              </div>
+
+              <!-- Col 4: Validated Countermeasures -->
+              <div class="pathway-col">
+                <div class="pathway-col-header">
+                  <h4>Countermeasures</h4>
+                  <span class="col-count">7</span>
+                </div>
+                <div class="pathway-cards-list" id="countermeasuresCardList">
+                  <!-- Populated dynamically -->
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- VIEW 2: Canvas for Clean Force-Directed / Radial Graph -->
+          <div class="network-canvas-wrap" id="networkCanvasWrap" style="display:none;">
+            <canvas id="graphCanvas"></canvas>
+            <div class="graph-legend">
+              <div class="legend-item"><span class="legend-badge badge-core-cat">Core</span> NASA Core</div>
+              <div class="legend-item"><span class="legend-badge badge-stressor-cat">Stressor</span> Space Stressors</div>
+              <div class="legend-item"><span class="legend-badge badge-domain-cat">Discipline</span> Disciplines</div>
+              <div class="legend-item"><span class="legend-badge badge-organism-cat">Organism</span> Organisms</div>
+              <div class="legend-item"><span class="legend-badge badge-countermeasure-cat">Countermeasure</span> Countermeasures</div>
+            </div>
+            <div class="graph-tooltip" id="graphTooltip"></div>
+          </div>
+
+        </div>
+
+        <!-- Node Details HUD Drawer -->
+        <div class="graph-info-drawer" id="graphInfoDrawer">
+          <div class="drawer-header">
+            <h3 id="drawerNodeTitle">Select Any Entity</h3>
+            <span class="badge badge-sky" id="drawerNodeType">Pathway Inspector</span>
+          </div>
+          <div class="drawer-body" id="drawerNodeBody">
+            <p class="text-muted" id="drawerNodeDesc">Click any space stressor, discipline, organism, or countermeasure to isolate and inspect its full relational cascade.</p>
+            <div class="info-metric-strip">
+              <div class="im-box">
+                <span class="im-label">Connected Links</span>
+                <span class="im-val" id="drawerNodeDegree">-</span>
+              </div>
+              <div class="im-box">
+                <span class="im-label">Entity Category</span>
+                <span class="im-val" id="drawerNodeCategory">-</span>
+              </div>
+            </div>
+            <div class="connected-list-wrap">
+              <h4>Connected Literature &amp; Relationships:</h4>
+              <ul class="connected-nodes-list" id="drawerConnectedList">
+                <li class="empty-hint">Select a card in the cascade to view evidence.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================== -->
+    <!-- TAB 4: GENELAB OMICS & VOLCANO PLOT -->
+    <!-- ======================================================== -->
+    <section class="tab-pane" id="pane-genelab">
+      <div class="card-panel">
+        <div class="panel-header">
+          <div>
+            <h3>NASA GeneLab Microarray Differential Expression (GLDS Study)</h3>
+            <p class="panel-desc">Transcriptomic analysis of <em>Arabidopsis thaliana</em> (Col-0 WT vs act2-3 mutant) comparing Flight vs Synchronized Ground Control.</p>
+          </div>
+          <div class="genelab-stats-strip">
+            <div class="stat-pill pill-up">102 Up-regulated (>2x, p&lt;0.05)</div>
+            <div class="stat-pill pill-down">610 Down-regulated (&lt;0.5x, p&lt;0.05)</div>
+            <div class="stat-pill pill-neutral">22,098 Stable Genes</div>
+          </div>
+        </div>
+
+        <div class="volcano-section">
+          <div class="volcano-canvas-wrap">
+            <div class="volcano-legend-overlay">
+              <span class="vl-item"><span class="vl-tag vl-tag-up">UP</span> Up in Space</span>
+              <span class="vl-item"><span class="vl-tag vl-tag-down">DOWN</span> Down in Space</span>
+              <span class="vl-item"><span class="vl-tag vl-tag-neutral">STABLE</span> Not Significant</span>
+            </div>
+            <canvas id="volcanoCanvas"></canvas>
+            <div class="volcano-tooltip" id="volcanoTooltip"></div>
+          </div>
+          <div class="volcano-sidebar">
+            <h4>Gene Details Inspector</h4>
+            <div id="geneDetailContent">
+              <p class="text-muted">Hover or click any point on the Volcano Plot to inspect gene annotation, Log2 Fold Change, and exact p-value.</p>
+            </div>
+            <div class="quick-gene-lookup mt-4">
+              <label for="geneSearchInput">Search Gene Symbol or TAIR ID:</label>
+              <input type="text" id="geneSearchInput" class="form-input" placeholder="e.g. AT1G01010, ACT2, LHCB..." />
+              <button class="btn btn-primary btn-sm mt-2 w-100" id="btnLookupGene">Lookup Gene Expression</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Top Significant Genes Table -->
+        <h4 class="mt-4">Top Spaceflight-Dysregulated Genes (p &lt; 0.05)</h4>
+        <div class="table-responsive">
+          <table class="data-table" id="topGenesTable">
+            <thead>
+              <tr>
+                <th>TAIR ID</th>
+                <th>Gene Symbol</th>
+                <th>Description</th>
+                <th>Log2 Fold Change</th>
+                <th>P-Value</th>
+                <th>Regulation in Spaceflight</th>
+              </tr>
+            </thead>
+            <tbody id="topGenesTableBody">
+              <!-- Dynamically populated -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================== -->
+    <!-- TAB 5: 608 PUBLICATIONS INTERROGATOR -->
+    <!-- ======================================================== -->
+    <section class="tab-pane" id="pane-publications">
+      <div class="card-panel">
+        <div class="panel-header">
+          <div>
+            <h3>NASA Space Biology 608 Publications Interrogator</h3>
+            <p class="panel-desc">Interactive search and structured filtering across the official NASA GeneLab space biology publication catalog.</p>
+          </div>
+          <div class="export-actions">
+            <button class="btn btn-secondary btn-sm" id="btnExportCSV">Export CSV</button>
+            <button class="btn btn-secondary btn-sm" id="btnExportJSON">Export JSON</button>
+          </div>
+        </div>
+
+        <!-- Filter Controls Bar -->
+        <div class="filter-controls-bar">
+          <div class="filter-col">
+            <label for="filterSearch">Search Titles / Keywords</label>
+            <input type="text" id="filterSearch" class="form-input" placeholder="e.g. bone loss, radiation, arabidopsis, immune..." />
+          </div>
+          <div class="filter-col">
+            <label for="filterDomain">Scientific Discipline</label>
+            <select id="filterDomain" class="form-select">
+              <option value="all">All Disciplines (9)</option>
+            </select>
+          </div>
+          <div class="filter-col">
+            <label for="filterOrganism">Model Organism</label>
+            <select id="filterOrganism" class="form-select">
+              <option value="all">All Organisms</option>
+            </select>
+          </div>
+          <div class="filter-col">
+            <label for="filterPlatform">Flight Platform</label>
+            <select id="filterPlatform" class="form-select">
+              <option value="all">All Platforms</option>
+            </select>
+          </div>
+          <div class="filter-col">
+            <label for="filterConsensus">Consensus Status</label>
+            <select id="filterConsensus" class="form-select">
+              <option value="all">All Statuses</option>
+              <option value="High Consensus">High Consensus</option>
+              <option value="Emerging Evidence">Emerging Evidence</option>
+              <option value="Controversial / Active Debate">Controversial / Active Debate</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="filter-status-strip">
+          <span id="pubCountIndicator">Showing 607 of 607 publications</span>
+        </div>
+
+        <!-- Publications Cards / Table View -->
+        <div class="publications-grid" id="publicationsGrid">
+          <!-- Dynamically populated -->
+        </div>
+
+        <!-- Pagination Controls -->
+        <div class="pagination-bar" id="paginationBar">
+          <button class="btn btn-secondary btn-sm" id="btnPrevPage">Previous</button>
+          <span id="pageIndicator" class="page-indicator">Page 1 of 61</span>
+          <button class="btn btn-secondary btn-sm" id="btnNextPage">Next</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================== -->
+    <!-- TAB 6: AI SYNTHESIZER -->
+    <!-- ======================================================== -->
+    <section class="tab-pane" id="pane-ai-assistant">
+      <div class="card-panel">
+        <div class="panel-header">
+          <div>
+            <h3>AI Space Biology Synthesis &amp; Retrieval Engine</h3>
+            <p class="panel-desc">Query the comprehensive database of 608 NASA studies and the GeneLab transcriptomics repository.</p>
+          </div>
+          <span class="badge badge-sky">Semantic RAG Engine</span>
+        </div>
+
+        <!-- Quick Question Prompts -->
+        <div class="prompt-pills-wrap">
+          <span class="prompt-hint">Suggested Inquiries:</span>
+          <button class="prompt-pill" data-q="What are the proven countermeasures for microgravity bone loss in rodent spaceflight?">Bone loss countermeasures</button>
+          <button class="prompt-pill" data-q="How does spaceflight alter plant root gravitropism, cell wall mechanics, and oxidative stress?">Plant gravitropism &amp; stress</button>
+          <button class="prompt-pill" data-q="What are the primary cardiovascular and radiation hazards for a 3-year Mars round-trip mission?">3-Year Mars cardiovascular hazards</button>
+          <button class="prompt-pill" data-q="What areas show strong scientific consensus vs conflicting findings in space immunology?">Consensus vs debate in immunology</button>
+          <button class="prompt-pill" data-q="How does the actin cytoskeleton (ACT2) affect Arabidopsis adaptation in space?">Actin cytoskeleton &amp; GeneLab data</button>
+        </div>
+
+        <!-- Input Box -->
+        <div class="ai-query-box">
+          <textarea id="aiQueryInput" class="form-textarea" rows="3" placeholder="Enter your space biology inquiry or select one of the suggested prompts above..."></textarea>
+          <div class="ai-query-actions">
+            <button class="btn btn-primary" id="btnRunAiQuery">
+              Synthesize Knowledge
+            </button>
+          </div>
+        </div>
+
+        <!-- AI Output Window -->
+        <div class="ai-response-window" id="aiResponseWindow">
+          <div class="ai-idle-state" id="aiIdleState">
+            <span class="ai-status-badge">AI Synthesis Ready</span>
+            <h4>Ready to Synthesize Space Biology Insights</h4>
+            <p class="text-muted">Enter a research query regarding space radiation, microgravity, plant growth, cardiovascular deconditioning, or countermeasures to receive a structured, citation-backed synthesis.</p>
+          </div>
+          <div class="ai-loading-state" id="aiLoadingState" style="display:none;">
+            <div class="spinner"></div>
+            <p>Scanning 608 NASA bioscience publications and 22,810 GeneLab records...</p>
+          </div>
+          <div class="ai-result-content" id="aiResultContent" style="display:none;">
+            <!-- Rendered by app.js -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Global Footer -->
+  <footer class="app-footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        <strong>NASA Space Biology Knowledge Engine</strong> | Developed for the NASA Space Apps Challenge
+      </div>
+      <div class="footer-right">
+        <span>Powered by <a href="https://www.nasa.gov/osdr/" target="_blank">NASA OSDR</a>, <a href="https://genelab.nasa.gov/" target="_blank">GeneLab</a> &amp; <a href="https://www.ncbi.nlm.nih.gov/pmc/" target="_blank">PubMed Central</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Application Logic Scripts -->
+  <script src="app.js"></script>
+</body>
+</html>

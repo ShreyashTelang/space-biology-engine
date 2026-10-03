@@ -1,0 +1,1298 @@
+{
+  "nodes": [
+    {
+      "id": "NASA_SPACE_BIOLOGY",
+      "label": "NASA Space Biology Knowledge Engine",
+      "type": "core",
+      "size": 32,
+      "group": 0,
+      "metadata": {}
+    },
+    {
+      "id": "domain_General Space Biology & Life Support",
+      "label": "General Space Biology & Life Support",
+      "type": "domain",
+      "size": 24,
+      "group": 1,
+      "metadata": {
+        "count": 156
+      }
+    },
+    {
+      "id": "domain_Musculoskeletal & Bone Loss",
+      "label": "Musculoskeletal & Bone Loss",
+      "type": "domain",
+      "size": 24,
+      "group": 1,
+      "metadata": {
+        "count": 85
+      }
+    },
+    {
+      "id": "domain_Reproductive & Developmental Biology",
+      "label": "Reproductive & Developmental Biology",
+      "type": "domain",
+      "size": 24,
+      "group": 1,
+      "metadata": {
+        "count": 17
+      }
+    },
+    {
+      "id": "domain_Cardiovascular & Fluid Shifts",
+      "label": "Cardiovascular & Fluid Shifts",
+      "type": "domain",
+      "size": 24,
+      "group": 1,
+      "metadata": {
+        "count": 15
+      }
+    },
+    {
+      "id": "domain_Plant Biology & Space Agriculture",
+      "label": "Plant Biology & Space Agriculture",
+      "type": "domain",
+      "size": 24,
+      "group": 1,
+      "metadata": {
+        "count": 101
+      }
+    },
+    {
+      "id": "domain_Radiation & Deep Space Hazards",
+      "label": "Radiation & Deep Space Hazards",
+      "type": "domain",
+      "size": 24,
+      "group": 1,
+      "metadata": {
+        "count": 70
+      }
+    },
+    {
+      "id": "domain_Omics, Mitochondria & Cellular Stress",
+      "label": "Omics, Mitochondria & Cellular Stress",
+      "type": "domain",
+      "size": 24,
+      "group": 1,
+      "metadata": {
+        "count": 40
+      }
+    },
+    {
+      "id": "domain_Microbiology & Biofilms",
+      "label": "Microbiology & Biofilms",
+      "type": "domain",
+      "size": 24,
+      "group": 1,
+      "metadata": {
+        "count": 80
+      }
+    },
+    {
+      "id": "domain_Immunology & Infection",
+      "label": "Immunology & Infection",
+      "type": "domain",
+      "size": 24,
+      "group": 1,
+      "metadata": {
+        "count": 19
+      }
+    },
+    {
+      "id": "domain_Neuroscience & Vision (SANS)",
+      "label": "Neuroscience & Vision (SANS)",
+      "type": "domain",
+      "size": 24,
+      "group": 1,
+      "metadata": {
+        "count": 24
+      }
+    },
+    {
+      "id": "stress_microgravity",
+      "label": "Microgravity (0g to partial g)",
+      "type": "stressor",
+      "size": 20,
+      "group": 2,
+      "metadata": {}
+    },
+    {
+      "id": "stress_radiation",
+      "label": "Galactic Cosmic Radiation & SPE",
+      "type": "stressor",
+      "size": 20,
+      "group": 2,
+      "metadata": {}
+    },
+    {
+      "id": "stress_confinement",
+      "label": "Isolation & Confinement Stress",
+      "type": "stressor",
+      "size": 20,
+      "group": 2,
+      "metadata": {}
+    },
+    {
+      "id": "stress_closed_loop",
+      "label": "Closed-loop Life Support & CO2",
+      "type": "stressor",
+      "size": 20,
+      "group": 2,
+      "metadata": {}
+    },
+    {
+      "id": "org_Cross-Species / General Model",
+      "label": "Cross-Species / General Model",
+      "type": "organism",
+      "size": 18,
+      "group": 3,
+      "metadata": {
+        "count": 211
+      }
+    },
+    {
+      "id": "org_Mus musculus (Rodents)",
+      "label": "Mus musculus (Rodents)",
+      "type": "organism",
+      "size": 18,
+      "group": 3,
+      "metadata": {
+        "count": 185
+      }
+    },
+    {
+      "id": "org_Arabidopsis thaliana (Plants)",
+      "label": "Arabidopsis thaliana (Plants)",
+      "type": "organism",
+      "size": 18,
+      "group": 3,
+      "metadata": {
+        "count": 100
+      }
+    },
+    {
+      "id": "org_In Vitro / Cell Culture / Organoid",
+      "label": "In Vitro / Cell Culture / Organoid",
+      "type": "organism",
+      "size": 18,
+      "group": 3,
+      "metadata": {
+        "count": 32
+      }
+    },
+    {
+      "id": "org_Microbial / Microorganisms",
+      "label": "Microbial / Microorganisms",
+      "type": "organism",
+      "size": 18,
+      "group": 3,
+      "metadata": {
+        "count": 29
+      }
+    },
+    {
+      "id": "org_Homo sapiens (Humans)",
+      "label": "Homo sapiens (Humans)",
+      "type": "organism",
+      "size": 18,
+      "group": 3,
+      "metadata": {
+        "count": 24
+      }
+    },
+    {
+      "id": "org_Caenorhabditis elegans (Worm)",
+      "label": "Caenorhabditis elegans (Worm)",
+      "type": "organism",
+      "size": 18,
+      "group": 3,
+      "metadata": {
+        "count": 15
+      }
+    },
+    {
+      "id": "cm_bisphosphonates",
+      "label": "Bisphosphonates & Sclerostin Ab",
+      "type": "countermeasure",
+      "size": 16,
+      "group": 4,
+      "metadata": {}
+    },
+    {
+      "id": "cm_ared_exercise",
+      "label": "ARED Advanced Resistive Exercise",
+      "type": "countermeasure",
+      "size": 16,
+      "group": 4,
+      "metadata": {}
+    },
+    {
+      "id": "cm_lbnp",
+      "label": "Lower Body Negative Pressure (LBNP)",
+      "type": "countermeasure",
+      "size": 16,
+      "group": 4,
+      "metadata": {}
+    },
+    {
+      "id": "cm_mitoq",
+      "label": "Mitochondrial Antioxidants (MitoQ/NAC)",
+      "type": "countermeasure",
+      "size": 16,
+      "group": 4,
+      "metadata": {}
+    },
+    {
+      "id": "cm_led_spectrum",
+      "label": "Dynamic Spectrum LED Optimization",
+      "type": "countermeasure",
+      "size": 16,
+      "group": 4,
+      "metadata": {}
+    },
+    {
+      "id": "cm_artificial_gravity",
+      "label": "Short-Arm Centrifugation (0.38g-1g)",
+      "type": "countermeasure",
+      "size": 16,
+      "group": 4,
+      "metadata": {}
+    },
+    {
+      "id": "cm_probiotics",
+      "label": "Microbiome & Probiotic Stabalizers",
+      "type": "countermeasure",
+      "size": 16,
+      "group": 4,
+      "metadata": {}
+    },
+    {
+      "id": "pub_1",
+      "label": "Mice in Bion-M 1 space mission: training and ...",
+      "type": "publication",
+      "size": 10,
+      "group": 5,
+      "metadata": {
+        "full_title": "Mice in Bion-M 1 space mission: training and selection",
+        "pmc_id": "PMC4136787",
+        "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4136787/",
+        "domain": "General Space Biology & Life Support",
+        "consensus": "Emerging Evidence"
+      }
+    },
+    {
+      "id": "pub_2",
+      "label": "Microgravity induces pelvic bone loss through...",
+      "type": "publication",
+      "size": 10,
+      "group": 5,
+      "metadata": {
+        "full_title": "Microgravity induces pelvic bone loss through osteoclastic activity, osteocytic osteolysis, and osteoblastic cell cycle inhibition by CDKN1a/p21",
+        "pmc_id": "PMC3630201",
+        "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3630201/",
+        "domain": "Musculoskeletal & Bone Loss",
+        "consensus": "High Consensus"
+      }
+    },
+    {
+      "id": "pub_3",
+      "label": "Stem Cell Health and Tissue Regeneration in M...",
+      "type": "publication",
+      "size": 10,
+      "group": 5,
+      "metadata": {
+        "full_title": "Stem Cell Health and Tissue Regeneration in Microgravity",
+        "pmc_id": "PMC11988870",
+        "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11988870/",
+        "domain": "General Space Biology & Life Support",
+        "consensus": "Emerging Evidence"
+      }
+    },
+    {
+      "id": "pub_4",
+      "label": "Microgravity Reduces the Differentiation and ...",
+      "type": "publication",
+      "size": 10,
+      "group": 5,
+      "metadata": {
+        "full_title": "Microgravity Reduces the Differentiation and Regenerative Potential of Embryonic Stem Cells",
+        "pmc_id": "PMC7998608",
+        "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7998608/",
+        "domain": "Reproductive & Developmental Biology",
+        "consensus": "High Consensus"
+      }
+    },
+    {
+      "id": "pub_5",
+      "label": "Microgravity validation of a novel system for...",
+      "type": "publication",
+      "size": 10,
+      "group": 5,
+      "metadata": {
+        "full_title": "Microgravity validation of a novel system for RNA isolation and multiplex quantitative real time PCR analysis of gene expression on the International Space Station",
+        "pmc_id": "PMC5587110",
+        "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5587110/",
+        "domain": "General Space Biology & Life Support",
+        "consensus": "Controversial / Active Debate"
+      }
+    },
+    {
+      "id": "pub_6",
+      "label": "Spaceflight Modulates the Expression of Key O...",
+      "type": "publication",
+      "size": 10,
+      "group": 5,
+      "metadata": {
+        "full_title": "Spaceflight Modulates the Expression of Key Oxidative Stress and Cell Cycle Related Genes in Heart",
+        "pmc_id": "PMC8396460",
+        "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8396460/",
+        "domain": "Cardiovascular & Fluid Shifts",
+        "consensus": "Emerging Evidence"
+      }
+    },
+    {
+      "id": "pub_7",
+      "label": "Dose- and Ion-Dependent Effects in the Oxidat...",
+      "type": "publication",
+      "size": 10,
+      "group": 5,
+      "metadata": {
+        "full_title": "Dose- and Ion-Dependent Effects in the Oxidative Stress Response to Space-Like Radiation Exposure in the Skeletal System",
+        "pmc_id": "PMC5666799",
+        "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5666799/",
+        "domain": "Musculoskeletal & Bone Loss",
+        "consensus": "Emerging Evidence"
+      }
+    },
+    {
+      "id": "pub_8",
+      "label": "From the bench to exploration medicine: NASA ...",
+      "type": "publication",
+      "size": 10,
+      "group": 5,
+      "metadata": {
+        "full_title": "From the bench to exploration medicine: NASA life sciences translational research for human exploration and habitation missions.",
+        "pmc_id": "PMC5460236",
+        "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5460236/",
+        "domain": "General Space Biology & Life Support",
+        "consensus": "Emerging Evidence"
+      }
+    },
+    {
+      "id": "pub_9",
+      "label": "High-precision method for cyclic loading of s...",
+      "type": "publication",
+      "size": 10,
+      "group": 5,
+      "metadata": {
+        "full_title": "High-precision method for cyclic loading of small-animal vertebrae to assess bone quality.",
+        "pmc_id": "PMC6222041",
+        "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6222041/",
+        "domain": "Musculoskeletal & Bone Loss",
+        "consensus": "Emerging Evidence"
+      }
+    },
+    {
+      "id": "pub_10",
+      "label": "Effects of ex vivo ionizing radiation on coll...",
+      "type": "publication",
+      "size": 10,
+      "group": 5,
+      "metadata": {
+        "full_title": "Effects of ex vivo ionizing radiation on collagen structure and whole-bone mechanical properties of mouse vertebrae.",
+        "pmc_id": "PMC6813909",
+        "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6813909/",
+        "domain": "Musculoskeletal & Bone Loss",
+        "consensus": "Emerging Evidence"
+      }
+    },
+    {
+      "id": "pub_11",
+      "label": "Absence of gamma-sarcoglycan alters the respo...",
+      "type": "publication",
+      "size": 10,
+      "group": 5,
+      "metadata": {
+        "full_title": "Absence of gamma-sarcoglycan alters the response of p70S6 kinase to mechanical perturbation in murine skeletal muscle",
+        "pmc_id": "PMC4095884",
+        "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4095884/",
+        "domain": "Musculoskeletal & Bone Loss",
+        "consensus": "Emerging Evidence"
+      }
+    },
+    {
+      "id": "pub_12",
+      "label": "AtRabD2b and AtRabD2c have overlapping functi...",
+      "type": "publication",
+      "size": 10,
+      "group": 5,
+      "metadata": {
+        "full_title": "AtRabD2b and AtRabD2c have overlapping functions in pollen development and pollen tube growth.",
+        "pmc_id": "PMC3040128",
+        "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3040128/",
+        "domain": "Reproductive & Developmental Biology",
+        "consensus": "Emerging Evidence"
+      }
+    },
+    {
+      "id": "pub_13",
+      "label": "TNO1 is involved in salt tolerance and vacuol...",
+      "type": "publication",
+      "size": 10,
+      "group": 5,
+      "metadata": {
+        "full_title": "TNO1 is involved in salt tolerance and vacuolar trafficking in Arabidopsis.",
+        "pmc_id": "PMC3177255",
+        "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3177255/",
+        "domain": "Plant Biology & Space Agriculture",
+        "consensus": "Emerging Evidence"
+      }
+    },
+    {
+      "id": "pub_14",
+      "label": "Functional redundancy between trans-Golgi net...",
+      "type": "publication",
+      "size": 10,
+      "group": 5,
+      "metadata": {
+        "full_title": "Functional redundancy between trans-Golgi network SNARE family members in Arabidopsis thaliana.",
+        "pmc_id": "PMC11500582",
+        "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11500582/",
+        "domain": "Plant Biology & Space Agriculture",
+        "consensus": "Emerging Evidence"
+      }
+    },
+    {
+      "id": "pub_15",
+      "label": "Root growth movements: Waving and skewing....",
+      "type": "publication",
+      "size": 10,
+      "group": 5,
+      "metadata": {
+        "full_title": "Root growth movements: Waving and skewing.",
+        "pmc_id": "PMC5387210",
+        "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5387210/",
+        "domain": "Plant Biology & Space Agriculture",
+        "consensus": "Emerging Evidence"
+      }
+    },
+    {
+      "id": "pub_16",
+      "label": "Gravitropism and lateral root emergence are d...",
+      "type": "publication",
+      "size": 10,
+      "group": 5,
+      "metadata": {
+        "full_title": "Gravitropism and lateral root emergence are dependent on the trans-Golgi network protein TNO1",
+        "pmc_id": "PMC4642138",
+        "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4642138/",
+        "domain": "Plant Biology & Space Agriculture",
+        "consensus": "Emerging Evidence"
+      }
+    },
+    {
+      "id": "pub_17",
+      "label": "TNO1, a TGN-localized SNARE-interacting prote...",
+      "type": "publication",
+      "size": 10,
+      "group": 5,
+      "metadata": {
+        "full_title": "TNO1, a TGN-localized SNARE-interacting protein, modulates root skewing in Arabidopsis thaliana.",
+        "pmc_id": "PMC5387210",
+        "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5387210/",
+        "domain": "Plant Biology & Space Agriculture",
+        "consensus": "Emerging Evidence"
+      }
+    },
+    {
+      "id": "pub_18",
+      "label": "The Drosophila SUN protein Spag4 cooperates w...",
+      "type": "publication",
+      "size": 10,
+      "group": 5,
+      "metadata": {
+        "full_title": "The Drosophila SUN protein Spag4 cooperates with the coiled-coil protein Yuri Gagarin to maintain association of the basal body and spermatid nucleus.",
+        "pmc_id": "PMC2915878",
+        "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2915878/",
+        "domain": "Radiation & Deep Space Hazards",
+        "consensus": "Emerging Evidence"
+      }
+    },
+    {
+      "id": "pub_19",
+      "label": "Toll mediated infection response is altered b...",
+      "type": "publication",
+      "size": 10,
+      "group": 5,
+      "metadata": {
+        "full_title": "Toll mediated infection response is altered by gravity and spaceflight in Drosophila",
+        "pmc_id": "PMC3901686",
+        "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3901686/",
+        "domain": "Omics, Mitochondria & Cellular Stress",
+        "consensus": "Emerging Evidence"
+      }
+    },
+    {
+      "id": "pub_20",
+      "label": "Multi-omics analysis of multiple missions to ...",
+      "type": "publication",
+      "size": 10,
+      "group": 5,
+      "metadata": {
+        "full_title": "Multi-omics analysis of multiple missions to space reveal a theme of lipid dysregulation in mouse liver",
+        "pmc_id": "PMC6985101",
+        "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6985101/",
+        "domain": "Omics, Mitochondria & Cellular Stress",
+        "consensus": "Emerging Evidence"
+      }
+    },
+    {
+      "id": "pub_21",
+      "label": "GeneLab database analyses suggest long-term i...",
+      "type": "publication",
+      "size": 10,
+      "group": 5,
+      "metadata": {
+        "full_title": "GeneLab database analyses suggest long-term impact of space radiation on the cardiovascular system by the activation of FYN through reactive oxygen species.",
+        "pmc_id": "PMC6387434",
+        "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6387434/",
+        "domain": "Radiation & Deep Space Hazards",
+        "consensus": "Emerging Evidence"
+      }
+    },
+    {
+      "id": "pub_22",
+      "label": "FAIRness and usability for open-access omics ...",
+      "type": "publication",
+      "size": 10,
+      "group": 5,
+      "metadata": {
+        "full_title": "FAIRness and usability for open-access omics data systems.",
+        "pmc_id": "PMC6371294",
+        "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6371294/",
+        "domain": "General Space Biology & Life Support",
+        "consensus": "Emerging Evidence"
+      }
+    },
+    {
+      "id": "pub_23",
+      "label": "NASA GeneLab platform utilized for biological...",
+      "type": "publication",
+      "size": 10,
+      "group": 5,
+      "metadata": {
+        "full_title": "NASA GeneLab platform utilized for biological response to space radiation in animal models",
+        "pmc_id": "PMC7072278",
+        "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7072278/",
+        "domain": "Radiation & Deep Space Hazards",
+        "consensus": "Emerging Evidence"
+      }
+    },
+    {
+      "id": "pub_24",
+      "label": "Circulating miRNA spaceflight signature revea...",
+      "type": "publication",
+      "size": 10,
+      "group": 5,
+      "metadata": {
+        "full_title": "Circulating miRNA spaceflight signature reveals targets for countermeasure development",
+        "pmc_id": "PMC8441986",
+        "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8441986/",
+        "domain": "Reproductive & Developmental Biology",
+        "consensus": "Emerging Evidence"
+      }
+    },
+    {
+      "id": "pub_25",
+      "label": "Machine learning algorithm to characterize an...",
+      "type": "publication",
+      "size": 10,
+      "group": 5,
+      "metadata": {
+        "full_title": "Machine learning algorithm to characterize antimicrobial resistance associated with the International Space Station surface microbiome",
+        "pmc_id": "PMC9400218",
+        "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9400218/",
+        "domain": "Microbiology & Biofilms",
+        "consensus": "Emerging Evidence"
+      }
+    },
+    {
+      "id": "pub_26",
+      "label": "Extraterrestrial Gynecology: Could Spacefligh...",
+      "type": "publication",
+      "size": 10,
+      "group": 5,
+      "metadata": {
+        "full_title": "Extraterrestrial Gynecology: Could Spaceflight Increase the Risk of Developing Cancer in Female Astronauts? An Updated Review",
+        "pmc_id": "PMC9267413",
+        "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9267413/",
+        "domain": "General Space Biology & Life Support",
+        "consensus": "Emerging Evidence"
+      }
+    },
+    {
+      "id": "pub_27",
+      "label": "Muscle atrophy phenotype gene expression duri...",
+      "type": "publication",
+      "size": 10,
+      "group": 5,
+      "metadata": {
+        "full_title": "Muscle atrophy phenotype gene expression during spaceflight is linked to a metabolic crosstalk in both the liver and the muscle in mice.",
+        "pmc_id": "PMC9576569",
+        "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9576569/",
+        "domain": "Musculoskeletal & Bone Loss",
+        "consensus": "High Consensus"
+      }
+    },
+    {
+      "id": "pub_28",
+      "label": "Chromosomal positioning and epigenetic archit...",
+      "type": "publication",
+      "size": 10,
+      "group": 5,
+      "metadata": {
+        "full_title": "Chromosomal positioning and epigenetic architecture influence DNA methylation patterns triggered by galactic cosmic radiation",
+        "pmc_id": "PMC10789781",
+        "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10789781/",
+        "domain": "Radiation & Deep Space Hazards",
+        "consensus": "Emerging Evidence"
+      }
+    },
+    {
+      "id": "pub_29",
+      "label": "A comprehensive SARS-CoV-2 and COVID-19 revie...",
+      "type": "publication",
+      "size": 10,
+      "group": 5,
+      "metadata": {
+        "full_title": "A comprehensive SARS-CoV-2 and COVID-19 review, Part 2: Host extracellular to systemic effects of SARS-CoV-2 infection",
+        "pmc_id": "PMC10772081",
+        "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10772081/",
+        "domain": "General Space Biology & Life Support",
+        "consensus": "Emerging Evidence"
+      }
+    },
+    {
+      "id": "pub_30",
+      "label": "Aging and putative frailty biomarkers are alt...",
+      "type": "publication",
+      "size": 10,
+      "group": 5,
+      "metadata": {
+        "full_title": "Aging and putative frailty biomarkers are altered by spaceflight",
+        "pmc_id": "PMC11166946",
+        "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11166946/",
+        "domain": "General Space Biology & Life Support",
+        "consensus": "Emerging Evidence"
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "NASA_SPACE_BIOLOGY",
+      "target": "domain_General Space Biology & Life Support",
+      "relation": "encompasses",
+      "value": 156
+    },
+    {
+      "source": "NASA_SPACE_BIOLOGY",
+      "target": "domain_Musculoskeletal & Bone Loss",
+      "relation": "encompasses",
+      "value": 85
+    },
+    {
+      "source": "NASA_SPACE_BIOLOGY",
+      "target": "domain_Reproductive & Developmental Biology",
+      "relation": "encompasses",
+      "value": 17
+    },
+    {
+      "source": "NASA_SPACE_BIOLOGY",
+      "target": "domain_Cardiovascular & Fluid Shifts",
+      "relation": "encompasses",
+      "value": 15
+    },
+    {
+      "source": "NASA_SPACE_BIOLOGY",
+      "target": "domain_Plant Biology & Space Agriculture",
+      "relation": "encompasses",
+      "value": 101
+    },
+    {
+      "source": "NASA_SPACE_BIOLOGY",
+      "target": "domain_Radiation & Deep Space Hazards",
+      "relation": "encompasses",
+      "value": 70
+    },
+    {
+      "source": "NASA_SPACE_BIOLOGY",
+      "target": "domain_Omics, Mitochondria & Cellular Stress",
+      "relation": "encompasses",
+      "value": 40
+    },
+    {
+      "source": "NASA_SPACE_BIOLOGY",
+      "target": "domain_Microbiology & Biofilms",
+      "relation": "encompasses",
+      "value": 80
+    },
+    {
+      "source": "NASA_SPACE_BIOLOGY",
+      "target": "domain_Immunology & Infection",
+      "relation": "encompasses",
+      "value": 19
+    },
+    {
+      "source": "NASA_SPACE_BIOLOGY",
+      "target": "domain_Neuroscience & Vision (SANS)",
+      "relation": "encompasses",
+      "value": 24
+    },
+    {
+      "source": "stress_microgravity",
+      "target": "domain_Musculoskeletal & Bone Loss",
+      "relation": "affects",
+      "value": 15
+    },
+    {
+      "source": "stress_microgravity",
+      "target": "domain_Cardiovascular & Fluid Shifts",
+      "relation": "affects",
+      "value": 15
+    },
+    {
+      "source": "stress_microgravity",
+      "target": "domain_Plant Biology & Space Agriculture",
+      "relation": "affects",
+      "value": 15
+    },
+    {
+      "source": "stress_microgravity",
+      "target": "domain_Neuroscience & Vision (SANS)",
+      "relation": "affects",
+      "value": 15
+    },
+    {
+      "source": "stress_radiation",
+      "target": "domain_Radiation & Deep Space Hazards",
+      "relation": "affects",
+      "value": 15
+    },
+    {
+      "source": "stress_radiation",
+      "target": "domain_Omics, Mitochondria & Cellular Stress",
+      "relation": "affects",
+      "value": 15
+    },
+    {
+      "source": "stress_confinement",
+      "target": "domain_Neuroscience & Vision (SANS)",
+      "relation": "affects",
+      "value": 15
+    },
+    {
+      "source": "stress_confinement",
+      "target": "domain_Immunology & Infection",
+      "relation": "affects",
+      "value": 15
+    },
+    {
+      "source": "stress_closed_loop",
+      "target": "domain_Plant Biology & Space Agriculture",
+      "relation": "affects",
+      "value": 15
+    },
+    {
+      "source": "stress_closed_loop",
+      "target": "domain_Microbiology & Biofilms",
+      "relation": "affects",
+      "value": 15
+    },
+    {
+      "source": "org_Cross-Species / General Model",
+      "target": "domain_General Space Biology & Life Support",
+      "relation": "investigated_in",
+      "value": 211
+    },
+    {
+      "source": "org_Cross-Species / General Model",
+      "target": "domain_Microbiology & Biofilms",
+      "relation": "investigated_in",
+      "value": 211
+    },
+    {
+      "source": "org_Mus musculus (Rodents)",
+      "target": "domain_Musculoskeletal & Bone Loss",
+      "relation": "investigated_in",
+      "value": 185
+    },
+    {
+      "source": "org_Mus musculus (Rodents)",
+      "target": "domain_General Space Biology & Life Support",
+      "relation": "investigated_in",
+      "value": 185
+    },
+    {
+      "source": "org_Arabidopsis thaliana (Plants)",
+      "target": "domain_Plant Biology & Space Agriculture",
+      "relation": "investigated_in",
+      "value": 100
+    },
+    {
+      "source": "org_Arabidopsis thaliana (Plants)",
+      "target": "domain_Radiation & Deep Space Hazards",
+      "relation": "investigated_in",
+      "value": 100
+    },
+    {
+      "source": "org_In Vitro / Cell Culture / Organoid",
+      "target": "domain_General Space Biology & Life Support",
+      "relation": "investigated_in",
+      "value": 32
+    },
+    {
+      "source": "org_In Vitro / Cell Culture / Organoid",
+      "target": "domain_Cardiovascular & Fluid Shifts",
+      "relation": "investigated_in",
+      "value": 32
+    },
+    {
+      "source": "org_Microbial / Microorganisms",
+      "target": "domain_Microbiology & Biofilms",
+      "relation": "investigated_in",
+      "value": 29
+    },
+    {
+      "source": "org_Microbial / Microorganisms",
+      "target": "domain_Radiation & Deep Space Hazards",
+      "relation": "investigated_in",
+      "value": 29
+    },
+    {
+      "source": "org_Homo sapiens (Humans)",
+      "target": "domain_General Space Biology & Life Support",
+      "relation": "investigated_in",
+      "value": 24
+    },
+    {
+      "source": "org_Homo sapiens (Humans)",
+      "target": "domain_Radiation & Deep Space Hazards",
+      "relation": "investigated_in",
+      "value": 24
+    },
+    {
+      "source": "org_Caenorhabditis elegans (Worm)",
+      "target": "domain_Reproductive & Developmental Biology",
+      "relation": "investigated_in",
+      "value": 15
+    },
+    {
+      "source": "org_Caenorhabditis elegans (Worm)",
+      "target": "domain_Omics, Mitochondria & Cellular Stress",
+      "relation": "investigated_in",
+      "value": 15
+    },
+    {
+      "source": "cm_bisphosphonates",
+      "target": "domain_Musculoskeletal & Bone Loss",
+      "relation": "mitigates",
+      "value": 10
+    },
+    {
+      "source": "cm_ared_exercise",
+      "target": "domain_Musculoskeletal & Bone Loss",
+      "relation": "mitigates",
+      "value": 10
+    },
+    {
+      "source": "cm_lbnp",
+      "target": "domain_Cardiovascular & Fluid Shifts",
+      "relation": "mitigates",
+      "value": 10
+    },
+    {
+      "source": "cm_mitoq",
+      "target": "domain_Radiation & Deep Space Hazards",
+      "relation": "mitigates",
+      "value": 10
+    },
+    {
+      "source": "cm_led_spectrum",
+      "target": "domain_Plant Biology & Space Agriculture",
+      "relation": "mitigates",
+      "value": 10
+    },
+    {
+      "source": "cm_artificial_gravity",
+      "target": "domain_Musculoskeletal & Bone Loss",
+      "relation": "mitigates",
+      "value": 10
+    },
+    {
+      "source": "cm_probiotics",
+      "target": "domain_Immunology & Infection",
+      "relation": "mitigates",
+      "value": 10
+    },
+    {
+      "source": "pub_1",
+      "target": "domain_General Space Biology & Life Support",
+      "relation": "published_in",
+      "value": 5
+    },
+    {
+      "source": "pub_1",
+      "target": "org_Mus musculus (Rodents)",
+      "relation": "tested_on",
+      "value": 3
+    },
+    {
+      "source": "pub_2",
+      "target": "domain_Musculoskeletal & Bone Loss",
+      "relation": "published_in",
+      "value": 5
+    },
+    {
+      "source": "pub_2",
+      "target": "org_In Vitro / Cell Culture / Organoid",
+      "relation": "tested_on",
+      "value": 3
+    },
+    {
+      "source": "pub_3",
+      "target": "domain_General Space Biology & Life Support",
+      "relation": "published_in",
+      "value": 5
+    },
+    {
+      "source": "pub_3",
+      "target": "org_Mus musculus (Rodents)",
+      "relation": "tested_on",
+      "value": 3
+    },
+    {
+      "source": "pub_4",
+      "target": "domain_Reproductive & Developmental Biology",
+      "relation": "published_in",
+      "value": 5
+    },
+    {
+      "source": "pub_4",
+      "target": "org_Mus musculus (Rodents)",
+      "relation": "tested_on",
+      "value": 3
+    },
+    {
+      "source": "pub_5",
+      "target": "domain_General Space Biology & Life Support",
+      "relation": "published_in",
+      "value": 5
+    },
+    {
+      "source": "pub_5",
+      "target": "org_Cross-Species / General Model",
+      "relation": "tested_on",
+      "value": 3
+    },
+    {
+      "source": "pub_6",
+      "target": "domain_Cardiovascular & Fluid Shifts",
+      "relation": "published_in",
+      "value": 5
+    },
+    {
+      "source": "pub_6",
+      "target": "org_In Vitro / Cell Culture / Organoid",
+      "relation": "tested_on",
+      "value": 3
+    },
+    {
+      "source": "pub_7",
+      "target": "domain_Musculoskeletal & Bone Loss",
+      "relation": "published_in",
+      "value": 5
+    },
+    {
+      "source": "pub_7",
+      "target": "org_Cross-Species / General Model",
+      "relation": "tested_on",
+      "value": 3
+    },
+    {
+      "source": "pub_8",
+      "target": "domain_General Space Biology & Life Support",
+      "relation": "published_in",
+      "value": 5
+    },
+    {
+      "source": "pub_8",
+      "target": "org_Mus musculus (Rodents)",
+      "relation": "tested_on",
+      "value": 3
+    },
+    {
+      "source": "pub_9",
+      "target": "domain_Musculoskeletal & Bone Loss",
+      "relation": "published_in",
+      "value": 5
+    },
+    {
+      "source": "pub_9",
+      "target": "org_Cross-Species / General Model",
+      "relation": "tested_on",
+      "value": 3
+    },
+    {
+      "source": "pub_10",
+      "target": "domain_Musculoskeletal & Bone Loss",
+      "relation": "published_in",
+      "value": 5
+    },
+    {
+      "source": "pub_10",
+      "target": "org_Mus musculus (Rodents)",
+      "relation": "tested_on",
+      "value": 3
+    },
+    {
+      "source": "pub_11",
+      "target": "domain_Musculoskeletal & Bone Loss",
+      "relation": "published_in",
+      "value": 5
+    },
+    {
+      "source": "pub_11",
+      "target": "org_Mus musculus (Rodents)",
+      "relation": "tested_on",
+      "value": 3
+    },
+    {
+      "source": "pub_12",
+      "target": "domain_Reproductive & Developmental Biology",
+      "relation": "published_in",
+      "value": 5
+    },
+    {
+      "source": "pub_12",
+      "target": "org_Cross-Species / General Model",
+      "relation": "tested_on",
+      "value": 3
+    },
+    {
+      "source": "pub_13",
+      "target": "domain_Plant Biology & Space Agriculture",
+      "relation": "published_in",
+      "value": 5
+    },
+    {
+      "source": "pub_13",
+      "target": "org_Arabidopsis thaliana (Plants)",
+      "relation": "tested_on",
+      "value": 3
+    },
+    {
+      "source": "pub_14",
+      "target": "domain_Plant Biology & Space Agriculture",
+      "relation": "published_in",
+      "value": 5
+    },
+    {
+      "source": "pub_14",
+      "target": "org_Arabidopsis thaliana (Plants)",
+      "relation": "tested_on",
+      "value": 3
+    },
+    {
+      "source": "pub_15",
+      "target": "domain_Plant Biology & Space Agriculture",
+      "relation": "published_in",
+      "value": 5
+    },
+    {
+      "source": "pub_15",
+      "target": "org_Arabidopsis thaliana (Plants)",
+      "relation": "tested_on",
+      "value": 3
+    },
+    {
+      "source": "pub_16",
+      "target": "domain_Plant Biology & Space Agriculture",
+      "relation": "published_in",
+      "value": 5
+    },
+    {
+      "source": "pub_16",
+      "target": "org_Arabidopsis thaliana (Plants)",
+      "relation": "tested_on",
+      "value": 3
+    },
+    {
+      "source": "pub_17",
+      "target": "domain_Plant Biology & Space Agriculture",
+      "relation": "published_in",
+      "value": 5
+    },
+    {
+      "source": "pub_17",
+      "target": "org_Arabidopsis thaliana (Plants)",
+      "relation": "tested_on",
+      "value": 3
+    },
+    {
+      "source": "pub_18",
+      "target": "domain_Radiation & Deep Space Hazards",
+      "relation": "published_in",
+      "value": 5
+    },
+    {
+      "source": "pub_18",
+      "target": "org_Mus musculus (Rodents)",
+      "relation": "tested_on",
+      "value": 3
+    },
+    {
+      "source": "pub_19",
+      "target": "domain_Omics, Mitochondria & Cellular Stress",
+      "relation": "published_in",
+      "value": 5
+    },
+    {
+      "source": "pub_19",
+      "target": "org_Drosophila melanogaster (Fruit Fly)",
+      "relation": "tested_on",
+      "value": 3
+    },
+    {
+      "source": "pub_20",
+      "target": "domain_Omics, Mitochondria & Cellular Stress",
+      "relation": "published_in",
+      "value": 5
+    },
+    {
+      "source": "pub_20",
+      "target": "org_Mus musculus (Rodents)",
+      "relation": "tested_on",
+      "value": 3
+    },
+    {
+      "source": "pub_21",
+      "target": "domain_Radiation & Deep Space Hazards",
+      "relation": "published_in",
+      "value": 5
+    },
+    {
+      "source": "pub_21",
+      "target": "org_Cross-Species / General Model",
+      "relation": "tested_on",
+      "value": 3
+    },
+    {
+      "source": "pub_22",
+      "target": "domain_General Space Biology & Life Support",
+      "relation": "published_in",
+      "value": 5
+    },
+    {
+      "source": "pub_22",
+      "target": "org_Cross-Species / General Model",
+      "relation": "tested_on",
+      "value": 3
+    },
+    {
+      "source": "pub_23",
+      "target": "domain_Radiation & Deep Space Hazards",
+      "relation": "published_in",
+      "value": 5
+    },
+    {
+      "source": "pub_23",
+      "target": "org_Cross-Species / General Model",
+      "relation": "tested_on",
+      "value": 3
+    },
+    {
+      "source": "pub_24",
+      "target": "domain_Reproductive & Developmental Biology",
+      "relation": "published_in",
+      "value": 5
+    },
+    {
+      "source": "pub_24",
+      "target": "org_Cross-Species / General Model",
+      "relation": "tested_on",
+      "value": 3
+    },
+    {
+      "source": "pub_25",
+      "target": "domain_Microbiology & Biofilms",
+      "relation": "published_in",
+      "value": 5
+    },
+    {
+      "source": "pub_25",
+      "target": "org_Cross-Species / General Model",
+      "relation": "tested_on",
+      "value": 3
+    },
+    {
+      "source": "pub_26",
+      "target": "domain_General Space Biology & Life Support",
+      "relation": "published_in",
+      "value": 5
+    },
+    {
+      "source": "pub_26",
+      "target": "org_Mus musculus (Rodents)",
+      "relation": "tested_on",
+      "value": 3
+    },
+    {
+      "source": "pub_27",
+      "target": "domain_Musculoskeletal & Bone Loss",
+      "relation": "published_in",
+      "value": 5
+    },
+    {
+      "source": "pub_27",
+      "target": "org_Mus musculus (Rodents)",
+      "relation": "tested_on",
+      "value": 3
+    },
+    {
+      "source": "pub_28",
+      "target": "domain_Radiation & Deep Space Hazards",
+      "relation": "published_in",
+      "value": 5
+    },
+    {
+      "source": "pub_28",
+      "target": "org_Cross-Species / General Model",
+      "relation": "tested_on",
+      "value": 3
+    },
+    {
+      "source": "pub_29",
+      "target": "domain_General Space Biology & Life Support",
+      "relation": "published_in",
+      "value": 5
+    },
+    {
+      "source": "pub_29",
+      "target": "org_In Vitro / Cell Culture / Organoid",
+      "relation": "tested_on",
+      "value": 3
+    },
+    {
+      "source": "pub_30",
+      "target": "domain_General Space Biology & Life Support",
+      "relation": "published_in",
+      "value": 5
+    },
+    {
+      "source": "pub_30",
+      "target": "org_Cross-Species / General Model",
+      "relation": "tested_on",
+      "value": 3
+    }
+  ]
+}
